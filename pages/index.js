@@ -4,6 +4,6 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <><h1>this is cf2</h1></>
+    <><h1>this is cf2 {process.env.NEXT_PUBLIC_HOSTNAME}</h1></>
   )
 }
